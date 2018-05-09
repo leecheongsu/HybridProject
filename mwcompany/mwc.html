@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Nice 평가정보</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+	$("img").toggle();
+
+    });
+});
+</script>
+	
+	<link rel="stylesheet"  href="style1.css"/>
+
+
+
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="a">
+			<h1>Nice 평가정보</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="image/nicehome.png" style="width: 50%; height: 200px;">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">회사소개</a></li>
+				<li><a href="#service"">서비스안내</a></li>
+				<li><a href="#movie">홍보영상</a></li>
+				<li><a href="#recruit"">인재채용</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" >
+
+			<ul>
+
+				<li><a href="http://www.niceinfo.co.kr/main.nice"  data-icon="star">NICE</a></li>
+
+				<li><a href="http://www.niceinfo.co.kr/person/recruit.nice" data-icon="star">채용공고</a></li>
+			</ul>
+
+
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="a">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">Home</a>			
+			<h1>회사소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="image/img_content01.gif" style="width: 100%; height: 500px;">
+				</div>		
+		<div class="ui-bar ui-bar-b">Doing</div><br/>
+		<div class="ui-body ui-body-a">
+			<h3>신용평가</h3>
+			<p>개인신용평가회사(Credit Bureau, CB사)가 개인에 대한 신용정보를 수집한 후 이를 통계적 방법으로 분석하여, 향후 1년 내 90일 이상 장기연체 등 신용위험이 발생할 가능성을 수치화(1~1000점)하여 제공한다</p>
+		</div><br/>
+		<div class="ui-body ui-body-a">
+			<h3>기업신용</h3>	
+			<p>기업의 부도 가능성을 평가하여 기업 신용위험의 상대적인 수준을 서열화한 뒤, 위험 수준이 유사한 기업들을 동일한 등급으로 계량화한 지표입니다.</p>
+		</div><br/>
+			
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" >
+
+			<ul>
+
+				<li><a href="http://www.niceinfo.co.kr/main.nice"  data-icon="star">NICE</a></li>
+
+				<li><a href="http://www.niceinfo.co.kr/person/recruit.nice" data-icon="star">채용공고</a></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="service" data-theme="a">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">Home</a>			
+			<h1>서비스안내</h1>
+		</div>
+		<div data-role="content">
+					<button>Service</button>
+					<p align="center">#NICECREDIT</p>
+					<img src="image/pic1.png" style="width: 100%; height: 300px;">
+					<p align="center">#KISLINE</p>	
+					<img src="image/pic2.png" style="width: 100%; height: 300px;">
+					<p align="center">#KISVALUE</p>	
+					<img src="image/pic2.png" style="width: 100%; height: 300px;">
+			
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" >
+
+			<ul>
+
+				<li><a href="http://www.niceinfo.co.kr/main.nice"  data-icon="star">NICE</a></li>
+
+				<li><a href="http://www.niceinfo.co.kr/person/recruit.nice" data-icon="star">채용공고</a></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+
+
+	<div data-role="page" id="movie" data-theme="a">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">Home</a>			
+			<h1>홍보영상</h1>
+		</div>
+		<div data-role="content">
+			<div data-role="collapsible-set" data-theme="a" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>2018 Nice 신용평가 세미나 1</h3>					
+					<iframe width="100%" height="auto" src="https://www.youtube.com/embed/JuFf7PF_PWk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div data-role="collapsible">
+					<h3>2018 Nice 신용평가 세미나 2</h3>
+					<iframe width="100%" height="auto" src="https://www.youtube.com/embed/mPez00tcqSQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>					</div>
+				<div data-role="collapsible">
+					<h3>Nice Clips 신용평가 이슈</h3>
+					<iframe width="100%" height="auto" src="https://www.youtube.com/embed/uCZiX-IDWVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>					</div>
+				<div data-role="collapsible">
+					<h3>Nice Clips 신용평가 OLED</h3>
+					<iframe width="100%" height="auto" src="https://www.youtube.com/embed/VeJg2PofDGw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>					</div>
+			</div>
+	
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" >
+
+			<ul>
+
+				<li><a href="http://www.niceinfo.co.kr/main.nice"  data-icon="star">NICE</a></li>
+
+				<li><a href="http://www.niceinfo.co.kr/person/recruit.nice" data-icon="star">채용공고</a></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<div data-role="page" id="recruit" data-theme="a">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">Home</a>			
+			<h1>인재채용</h1>
+		</div>
+		<div data-role="content">
+		<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>인재상</h3>
+					<p><img src="image/인재상.png" style="width: 100%; height: auto;"></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>인사제도</h3>
+					<p><img src="image/인사제도.png" style="width: 100%; height: auto;"></p>
+
+				</div>
+				<div data-role="collapsible">
+					<h3>인재육성</h3>
+					<p><img src="image/인재육성.png" style="width: 100%; height: auto;"></p>
+
+				</div>
+				<div data-role="collapsible">
+					<h3>직무소개</h3>
+					<p><img src="image/직무소개.png" style="width: 100%; height: auto;"></p>
+				</div>
+		
+			
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<div data-role="navbar" >
+
+			<ul>
+
+				<li><a href="http://www.niceinfo.co.kr/main.nice"  data-icon="star">NICE</a></li>
+
+				<li><a href="http://www.niceinfo.co.kr/person/recruit.nice" data-icon="star">채용공고</a></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+</body>
+</html>
